@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--prva verzija-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css"
+ </head>
+ <body>
+   <div class="container" id="calculator-body">
+ 		<div class="row-fluid">
+ 			<div>
+ 				<input type="text" size="38px" id="calc-display" value="2222" />
+ 			</div>
+ 		</div>
+ 		<div class="row-fluid calc-keys text-center">
+ 			<input type="button" value="(" onclick='v("(")' class="btn btn-large span3 btn-inverse">
+ 			<input type="button" value=")" onclick='v(")")' class="btn btn-large span3 btn-inverse">
+ 			<input type="button" value="%" onclick='v("%")' class="btn btn-large span3 btn-inverse">
+ 			<input type="button" value="AC" onclick='c("0")' class="btn btn-large span3 btn-inverse">
+ 		</div>
+
+ 		<div class="row-fluid calc-keys text-center">
+ 			<input type="button" value="7" onclick='v("7")' class="btn btn-large span3">
+ 			<input type="button" value="8" onclick='v("8")' class="btn btn-large span3">
+ 			<input type="button" value="9" onclick='v("9")' class="btn btn-large span3">
+ 			<input type="button" value="/" onclick='v("/")' class="btn btn-large span3 btn-inverse">
+ 		</div>
+
+ 		<div class="row-fluid calc-keys text-center">
+ 			<input type="button" value="4" onclick='v("4")' class="btn btn-large span3">
+ 			<input type="button" value="5" onclick='v("5")' class="btn btn-large span3">
+ 			<input type="button" value="6" onclick='v("6")' class="btn btn-large span3">
+ 			<input type="button" value="x" onclick='v("*")' class="btn btn-large span3 btn-inverse">
+ 		</div>
+
+ 		<div class="row-fluid calc-keys text-center">
+ 			<input type="button" value="1" onclick='v("1")' class="btn btn-large span3">
+ 			<input type="button" value="2" onclick='v("2")' class="btn btn-large span3">
+ 			<input type="button" value="3" onclick='v("3")' class="btn btn-large span3">
+ 			<input type="button" value="-" onclick='v("-")' class="btn btn-large span3 btn-inverse">
+ 		</div>
+
+ 		<div class="row-fluid calc-keys text-center">
+ 			<input type="button" value="0" onclick='v("0")' class="btn btn-large span3">
+ 			<input type="button" value="." onclick='v(".")' class="btn btn-large span3">
+ 			<input type="button" value="=" onclick='e()' class="btn btn-large span3 btn-primary">
+ 			<input type="button" value="+" onclick='v("+")' class="btn btn-large span3 btn-inverse">
+ 		</div>
+ 	</div>
+ </body>
+ </html>
